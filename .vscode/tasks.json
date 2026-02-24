@@ -3,7 +3,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file",
-            "command": "D:\\CODE\\TOOL\\MINGW\\mingw64\\bin\\g++.exe",
+            "command": "D:\\CODE\\TOOL\\mingw64\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -11,9 +11,10 @@
                 "-I",
                 "${workspaceFolder}\\include",
                 "-o",
-                "${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe",
+                "${workspaceFolder}\\Tetris.exe",
+                "-static",
                 "-L",
-                "D:\\CODE\\TOOL\\MINGW\\mingw64\\lib",
+                "D:\\CODE\\TOOL\\mingw64\\lib",
                 "-leasyx",
                 "-lwinmm"
             ],
